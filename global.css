@@ -1,0 +1,17 @@
+/* This file adds the requisite utility classes for Tailwind to work. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* extend bg-color para agregar el color gris claro #EAECEE y beige suave #F9E79F */
+.bg-gray-light {
+  background-color: #EAECEE;
+}
+.bg-beige-light {
+  background-color: #F9E79F;
+}
+
+
+.full-view {
+  @apply w-full h-full;
+}
